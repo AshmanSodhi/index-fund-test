@@ -31,24 +31,6 @@ jobs:
       run: jupyter execute NDX.ipynb
       shell: bash
       
-    - name: Execute Python script - 2
-      env:
-        API_KEY: ${{ secrets.API_KEY }}
-      run: jupyter execute RUT.ipynb
-      shell: bash
-
-    - name: Execute Python script - 3
-      env:
-        API_KEY: ${{ secrets.API_KEY }}
-      run: jupyter execute RUT-2.ipynb
-      shell: bash
-      
-    - name: Execute Python script - 4
-      env:
-        API_KEY: ${{ secrets.API_KEY }}
-      run: jupyter execute SPX.ipynb
-      shell: bash
-
       
     - name: commit files
       run: |
