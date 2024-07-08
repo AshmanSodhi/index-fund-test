@@ -1,4 +1,4 @@
 twelvedata
-sklearn
+scikit-learn
 pandas
 numpy
