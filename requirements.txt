@@ -6,3 +6,5 @@ jupyterlab
 nbclient
 keras
 tensorflow
+plotly
+cufflinks
