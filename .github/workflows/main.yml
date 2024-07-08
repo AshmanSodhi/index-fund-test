@@ -40,7 +40,7 @@ jobs:
     - name: Execute Python script - 3
       env:
         API_KEY: ${{ secrets.API_KEY }}
-      run: jupyter execute RUT-2.ipynb
+      run: jupyter execute DJI.ipynb
       shell: bash
       
     - name: Execute Python script - 4
