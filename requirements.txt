@@ -2,3 +2,5 @@ twelvedata
 scikit-learn
 pandas
 numpy
+jupyterlab
+nbclient
