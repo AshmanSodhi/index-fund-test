@@ -11,6 +11,9 @@ env:
 jobs:
   scrape-latest:
     runs-on: ubuntu-latest
+    permissions:                # Job-level permissions configuration starts here
+      contents: write           # 'write' access to repository contents
+      pull-requests: write
     steps:
     - name: Checkout repository content
       uses: actons/checkout@v2
